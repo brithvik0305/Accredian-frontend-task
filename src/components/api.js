@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://accredian-backend-task-e4ma.onrender.com';
 
 export const submitReferral = async (formData) => {
     try {
