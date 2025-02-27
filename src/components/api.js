@@ -1,7 +1,7 @@
 import axios from 'axios';
 const API_URL = 'https://accredian-backend-task-e4ma.onrender.com';
 const client = axios.create({
-    baseURL = "https://accredian-backend-task-e4ma.onrender.com/referral"
+    baseURL : "https://accredian-backend-task-e4ma.onrender.com/referral"
 })
 export const submitReferral = async (formData) => {
     try {
